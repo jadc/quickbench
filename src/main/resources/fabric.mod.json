@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "quickbench",
+  "version": "${version}",
+
+  "name": "Quickbench",
+  "description": "Use a Crafting Table without placing it",
+  "authors": ["Jad Chehimi"],
+  "contact": {
+    "homepage": "https://curseforge.com/mc-mods/quickbench",
+    "sources": "https://github.com/jadc/quickbench"
+  },
+
+  "license": "MIT",
+  "icon": "assets/quickbench/icon.png",
+
+  "environment": "*",
+  "mixins": [ "quickbench.mixins.json" ],
+
+  "depends": { "fabricloader": ">=0.7.4" }
+}

@@ -1,3 +1,0 @@
-# Quickbench
-
-See branches.
